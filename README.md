@@ -1,1 +1,1 @@
-# dotfiles
+# Dotfiles - With Hyprland and Waybar
