@@ -20,7 +20,7 @@ package_install () {
 }
 
 symlinks () {
-    printf "Would you like to backup your existing config?\n"
+    printf "Would you like to backup your existing config? y/n\n"
     read ask
     if [[ $ask =~ ^[Yy]$ ]] ; then
         printf "Backing up in /dotfiles/backup/...\nMM\n"
