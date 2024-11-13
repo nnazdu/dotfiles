@@ -5,12 +5,12 @@ package_install () {
     read ask
     if [[ $ask =~ ^[Yy]$ ]] ; then
         printf "Calling pacman... \n\n"
-        pacman -S - < install/packages
+        sudo pacman -S - < install/packages
         printf "Are you running on a laptop? y/n\n"
         read ask
         if [[ $ask =~ ^[Yy]$ ]] ; then
             printf "Installing laptop-specific packages...\n\n"
-            pacman -S - < install/laptop-packages
+            sudo pacman -S - < install/laptop-packages
         elif [[ $ask =~ ^[Nn]$ ]] ; then
             printf "Okay, aborting... \n\n"
         fi
@@ -20,6 +20,26 @@ package_install () {
 }
 
 symlinks () {
+    printf "Would you like to backup your existing config?\n"
+    read ask
+    if [[ $ask =~ ^[Yy]$ ]] ; then
+        printf "Backing up in /dotfiles/backup/...\n\n"
+        cp -r /home/$USER/.config/hypr/
+        cp -r /home/$USER/.config/dunst/
+        cp -r /home/$USER/.config/gtk-3.0/
+        cp -r /home/$USER/.config/gtk-4.0/
+        cp -r /home/$USER/.config/kitty/
+        cp -r /home/$USER/.config/ohmyposh/
+        cp -r /home/$USER/.config/rofi/
+        cp -r /home/$USER/.config/scripts/
+        cp -r /home/$USER/.config/waybar/
+        cp -r /home/$USER/.config/waypaper/ 
+        cp /home/$USER/.bashrc
+        sudo pacman -S - < install/laptop-packages
+        printf "Done!\n"
+    elif [[ $ask =~ ^[Nn]$ ]] ; then
+        printf "Okay, proceed at your risk! \n\n"
+    fi
     printf "Creating symbolic links. This will delete any previous configuration. \nContinue? y/n\n"
     read ask
     if [[ $ask =~ ^[Yy]$ ]] ; then
