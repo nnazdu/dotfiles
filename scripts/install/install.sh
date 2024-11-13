@@ -5,12 +5,12 @@ package_install () {
     read ask
     if [[ $ask =~ ^[Yy]$ ]] ; then
         printf "Calling pacman... \n\n"
-        sudo pacman -S - < install/packages
+        yay -S --noconfirm - < /home/$USER/dotfiles/scripts/install/packages
         printf "Are you running on a laptop? y/n\n"
         read ask
         if [[ $ask =~ ^[Yy]$ ]] ; then
             printf "Installing laptop-specific packages...\n\n"
-            sudo pacman -S - < install/laptop-packages
+            yay -S --noconfirm - < /home/$USER/dotfiles/scripts/install/laptop-packages
         elif [[ $ask =~ ^[Nn]$ ]] ; then
             printf "Okay, aborting... \n\n"
         fi
@@ -23,19 +23,19 @@ symlinks () {
     printf "Would you like to backup your existing config?\n"
     read ask
     if [[ $ask =~ ^[Yy]$ ]] ; then
-        printf "Backing up in /dotfiles/backup/...\n\n"
-        cp -r /home/$USER/.config/hypr/
-        cp -r /home/$USER/.config/dunst/
-        cp -r /home/$USER/.config/gtk-3.0/
-        cp -r /home/$USER/.config/gtk-4.0/
-        cp -r /home/$USER/.config/kitty/
-        cp -r /home/$USER/.config/ohmyposh/
-        cp -r /home/$USER/.config/rofi/
-        cp -r /home/$USER/.config/scripts/
-        cp -r /home/$USER/.config/waybar/
-        cp -r /home/$USER/.config/waypaper/ 
-        cp /home/$USER/.bashrc
-        sudo pacman -S - < install/laptop-packages
+        printf "Backing up in /dotfiles/backup/...\nMM\n"
+        mkdir /home/$USER/dotfiles/backup/
+        cp -r /home/$USER/.config/hypr/ /home/$USER/dotfiles/backup/
+        cp -r /home/$USER/.config/dunst/ /home/$USER/dotfiles/backup/
+        cp -r /home/$USER/.config/gtk-3.0/ /home/$USER/dotfiles/backup/
+        cp -r /home/$USER/.config/gtk-4.0/ /home/$USER/dotfiles/backup/
+        cp -r /home/$USER/.config/kitty/ /home/$USER/dotfiles/backup/
+        cp -r /home/$USER/.config/ohmyposh/ /home/$USER/dotfiles/backup/
+        cp -r /home/$USER/.config/rofi/ /home/$USER/dotfiles/backup/
+        cp -r /home/$USER/.config/scripts/ /home/$USER/dotfiles/backup/
+        cp -r /home/$USER/.config/waybar/ /home/$USER/dotfiles/backup/
+        cp -r /home/$USER/.config/waypaper/ /home/$USER/dotfiles/backup/
+        cp /home/$USER/.bashrc /home/$USER/dotfiles/backup/
         printf "Done!\n"
     elif [[ $ask =~ ^[Nn]$ ]] ; then
         printf "Okay, proceed at your risk! \n\n"
@@ -43,30 +43,18 @@ symlinks () {
     printf "Creating symbolic links. This will delete any previous configuration. \nContinue? y/n\n"
     read ask
     if [[ $ask =~ ^[Yy]$ ]] ; then
-        printf "deleting old configs...\n"
-        rm -r /home/$USER/.config/hypr/
-        rm -r /home/$USER/.config/dunst/
-        rm -r /home/$USER/.config/gtk-3.0/
-        rm -r /home/$USER/.config/gtk-4.0/
-        rm -r /home/$USER/.config/kitty/
-        rm -r /home/$USER/.config/ohmyposh/
-        rm -r /home/$USER/.config/rofi/
-        rm -r /home/$USER/.config/scripts/
-        rm -r /home/$USER/.config/waybar/
-        rm -r /home/$USER/.config/waypaper/ 
-        rm /home/$USER/.bashrc
         printf "Creating symlinks...\n\n"
-        ln -s /home/$USER/dotfiles/hypr /home/$USER/.config/hypr
-        ln -s /home/$USER/dotfiles/dunst /home/$USER/.config/dunst
-        ln -s /home/$USER/dotfiles/gtk-3.0 /home/$USER/.config/gtk-3.0
-        ln -s /home/$USER/dotfiles/gtk-4.0 /home/$USER/.config/gtk-4.0 
-        ln -s /home/$USER/dotfiles/kitty /home/$USER/.config/kitty 
-        ln -s /home/$USER/dotfiles/ohmyposh /home/$USER/.config/ohmyposh
-        ln -s /home/$USER/dotfiles/rofi /home/$USER/.config/rofi
-        ln -s /home/$USER/dotfiles/scripts /home/$USER/.config/scripts
-        ln -s /home/$USER/dotfiles/waybar /home/$USER/.config/waybar
-        ln -s /home/$USER/dotfiles/waypaper /home/$USER/.config/waypaper
-        ln -s /home/$USER/dotfiles/.bashrc /home/$USER/.bashrc
+        ln -sf /home/$USER/dotfiles/hypr/* /home/$USER/.config/hypr/
+        ln -sf /home/$USER/dotfiles/dunst/* /home/$USER/.config/dunst/
+        ln -sf /home/$USER/dotfiles/gtk-3.0/* /home/$USER/.config/gtk-3.0/
+        ln -sf /home/$USER/dotfiles/gtk-4.0/* /home/$USER/.config/gtk-4.0/
+        ln -sf /home/$USER/dotfiles/kitty/* /home/$USER/.config/kitty/ 
+        ln -sf /home/$USER/dotfiles/ohmyposh/* /home/$USER/.config/ohmyposh/
+        ln -sf /home/$USER/dotfiles/rofi/* /home/$USER/.config/rofi/
+        # ln -s /home/$USER/dotfiles/scripts /home/$USER/.config/scripts
+        ln -sf /home/$USER/dotfiles/waybar/* /home/$USER/.config/waybar/
+        ln -sf /home/$USER/dotfiles/waypaper/* /home/$USER/.config/waypaper/
+        ln -sf /home/$USER/dotfiles/.bashrc /home/$USER/.bashrc
     elif [[ $ask =~ ^[Nn]$ ]] ; then
         printf "Okay, aborting... \n\n"
     fi
