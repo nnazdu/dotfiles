@@ -5,13 +5,15 @@ package_install () {
     printf "Continue? y/n \n"
     read ask
     if [[ $ask =~ ^[Yy]$ ]] ; then
-        printf "Calling yay... \n\n"
-        yay -S --noconfirm - < /home/$USER/dotfiles/scripts/install/packages
+        printf "Invoking pacman... \n\n"
+        sudo pacman -S --noconfirm - < /home/$USER/dotfiles/scripts/install/stable-packages
+        printf "Invoking yay... \n\n"
+        yay S --noconfirm - < /home/$USER/dotfiles/scripts/install/AUR-packages
         printf "Are you running on a laptop? y/n\n"
         read ask
         if [[ $ask =~ ^[Yy]$ ]] ; then
             printf "Installing laptop-specific packages...\n\n"
-            yay -S --noconfirm - < /home/$USER/dotfiles/scripts/install/laptop-packages
+            sudo pacman -S --noconfirm - < /home/$USER/dotfiles/scripts/install/laptop-packages
         elif [[ $ask =~ ^[Nn]$ ]] ; then
             printf "Okay, aborting... \n\n"
         fi
@@ -25,7 +27,7 @@ symlinks () {
     read ask
     if [[ $ask =~ ^[Yy]$ ]] ; then
         if test -d /home/$USER/dotfiles/backup/; then
-            printf "Eemoving previous backups...\n"
+            printf "Removing previous backups...\n"
             rm -r /home/$USER/dotfiles/backup/
         else
             mkdir /home/$USER/dotfiles/backup/
