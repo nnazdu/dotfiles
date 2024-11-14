@@ -38,6 +38,7 @@ symlinks () {
         printf "Backing up in /dotfiles/backup/...\nMM\n"
         for i in "${configs[@]}"
             do
+                printf "Copying $i folder... \n"
                 cp -r /home/$USER/.config/$i/ /home/$USER/dotfiles/backup/
             done
         cp /home/$USER/.bashrc /home/$USER/dotfiles/backup/
@@ -55,6 +56,7 @@ symlinks () {
                     printf "$i folder exists.\n"
                 else
                     printf "$i folder does not exist, creating dir...\n"
+                    mkdir /home/$USER/.config/$i
                 fi
             done
     printf "Creating symlinks...\n\n"
