@@ -1,4 +1,6 @@
 #!/bin/bash
+declare -a configs=("hypr" "dunst" "gtk-3.0" "gtk-4.0" "kitty" "ohmyposh" "rofi" "scripts" "waybar" "wallpaper" "waypaper")
+
 package_install () {
     printf "yay is required in order to install AUR packages\n"
     printf "Installing base dotfiles dependencies... \n(the script installs through yay the packages listed in /scripts/install/packages and /scripts/install/laptop-packages) \n"
@@ -32,17 +34,12 @@ symlinks () {
         else
             mkdir /home/$USER/dotfiles/backup/
         fi
+
         printf "Backing up in /dotfiles/backup/...\nMM\n"
-        cp -r /home/$USER/.config/hypr/ /home/$USER/dotfiles/backup/
-        cp -r /home/$USER/.config/dunst/ /home/$USER/dotfiles/backup/
-        cp -r /home/$USER/.config/gtk-3.0/ /home/$USER/dotfiles/backup/
-        cp -r /home/$USER/.config/gtk-4.0/ /home/$USER/dotfiles/backup/
-        cp -r /home/$USER/.config/kitty/ /home/$USER/dotfiles/backup/
-        cp -r /home/$USER/.config/ohmyposh/ /home/$USER/dotfiles/backup/
-        cp -r /home/$USER/.config/rofi/ /home/$USER/dotfiles/backup/
-        cp -r /home/$USER/.config/scripts/ /home/$USER/dotfiles/backup/
-        cp -r /home/$USER/.config/waybar/ /home/$USER/dotfiles/backup/
-        cp -r /home/$USER/.config/waypaper/ /home/$USER/dotfiles/backup/
+        for i in "${configs[@]}"
+            do
+                cp -r /home/$USER/.config/$i/ /home/$USER/dotfiles/backup/
+            done
         cp /home/$USER/.bashrc /home/$USER/dotfiles/backup/
         printf "Done!\n"
     elif [[ $ask =~ ^[Nn]$ ]] ; then
@@ -51,18 +48,21 @@ symlinks () {
     printf "Creating symbolic links. This will delete any previous configuration. \nContinue? y/n\n"
     read ask
     if [[ $ask =~ ^[Yy]$ ]] ; then
-        printf "Creating symlinks...\n\n"
-        ln -sf /home/$USER/dotfiles/hypr/* /home/$USER/.config/hypr/
-        ln -sf /home/$USER/dotfiles/dunst/* /home/$USER/.config/dunst/
-        ln -sf /home/$USER/dotfiles/gtk-3.0/* /home/$USER/.config/gtk-3.0/
-        ln -sf /home/$USER/dotfiles/gtk-4.0/* /home/$USER/.config/gtk-4.0/
-        ln -sf /home/$USER/dotfiles/kitty/* /home/$USER/.config/kitty/ 
-        ln -sf /home/$USER/dotfiles/ohmyposh/* /home/$USER/.config/ohmyposh/
-        ln -sf /home/$USER/dotfiles/rofi/* /home/$USER/.config/rofi/
-        ln -sf /home/$USER/dotfiles/scripts /home/$USER/.config/scripts
-        ln -sf /home/$USER/dotfiles/waybar/* /home/$USER/.config/waybar/
-        ln -sf /home/$USER/dotfiles/waypaper/* /home/$USER/.config/waypaper/
-        ln -sf /home/$USER/dotfiles/.bashrc /home/$USER/.bashrc
+        printf "Checking for directories... \n"
+        for i in "${configs[@]}"
+            do
+                if test -d /home/$USER/.config/$i; then
+                    printf "$i folder exists.\n"
+                else
+                    printf "$i folder does not exist, creating dir...\n"
+                fi
+            done
+    printf "Creating symlinks...\n\n"
+    for i in "${configs[@]}"
+        do
+            ln -sf /home/$USER/dotfiles/$i/* /home/$USER/.config/$i/
+        done
+    ln -sf /home/$USER/dotfiles/.bashrc /home/$USER/.bashrc
     elif [[ $ask =~ ^[Nn]$ ]] ; then
         printf "Okay, aborting... \n\n"
     fi
