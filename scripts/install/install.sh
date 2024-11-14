@@ -42,7 +42,7 @@ symlinks () {
                 cp -r /home/$USER/.config/$i/ /home/$USER/dotfiles/backup/
             done
         cp /home/$USER/.bashrc /home/$USER/dotfiles/backup/
-        printf "Done!\n"
+        printf "Done!\n\n"
     elif [[ $ask =~ ^[Nn]$ ]] ; then
         printf "Okay, proceed at your risk! \n\n"
     fi
@@ -58,13 +58,15 @@ symlinks () {
                     printf "$i folder does not exist, creating dir...\n"
                     mkdir /home/$USER/.config/$i
                 fi
-            done
+        done
+    printf "Done!\n\n"
     printf "Creating symlinks...\n\n"
     for i in "${configs[@]}"
         do
             ln -sf /home/$USER/dotfiles/$i/* /home/$USER/.config/$i/
         done
     ln -sf /home/$USER/dotfiles/.bashrc /home/$USER/.bashrc
+    printf "Done!\n\n"
     elif [[ $ask =~ ^[Nn]$ ]] ; then
         printf "Okay, aborting... \n\n"
     fi
@@ -95,4 +97,4 @@ else
     fi
 fi
 
-printf "All done!\n"
+printf "All done! Exiting...\n"
