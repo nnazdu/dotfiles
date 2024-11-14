@@ -1,10 +1,11 @@
 #!/bin/bash
 package_install () {
-    printf "Installing base dotfiles dependencies... \n(the script installs through pacman the packages listed in /scripts/install/packages and /scripts/install/laptop-packages) \n"
+    printf "yay is required in order to install AUR packages\n"
+    printf "Installing base dotfiles dependencies... \n(the script installs through yay the packages listed in /scripts/install/packages and /scripts/install/laptop-packages) \n"
     printf "Continue? y/n \n"
     read ask
     if [[ $ask =~ ^[Yy]$ ]] ; then
-        printf "Calling pacman... \n\n"
+        printf "Calling yay... \n\n"
         yay -S --noconfirm - < /home/$USER/dotfiles/scripts/install/packages
         printf "Are you running on a laptop? y/n\n"
         read ask
@@ -51,7 +52,7 @@ symlinks () {
         ln -sf /home/$USER/dotfiles/kitty/* /home/$USER/.config/kitty/ 
         ln -sf /home/$USER/dotfiles/ohmyposh/* /home/$USER/.config/ohmyposh/
         ln -sf /home/$USER/dotfiles/rofi/* /home/$USER/.config/rofi/
-        # ln -s /home/$USER/dotfiles/scripts /home/$USER/.config/scripts
+        ln -sf /home/$USER/dotfiles/scripts /home/$USER/.config/scripts
         ln -sf /home/$USER/dotfiles/waybar/* /home/$USER/.config/waybar/
         ln -sf /home/$USER/dotfiles/waypaper/* /home/$USER/.config/waypaper/
         ln -sf /home/$USER/dotfiles/.bashrc /home/$USER/.bashrc
