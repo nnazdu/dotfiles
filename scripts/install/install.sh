@@ -21,11 +21,16 @@ package_install () {
 }
 
 symlinks () {
-    printf "Would you like to backup your existing config? y/n\n"
+    printf "Would you like to backup your existing config? Previous backups will be deleted y/n\n"
     read ask
     if [[ $ask =~ ^[Yy]$ ]] ; then
+        if test -d /home/$USER/dotfiles/backup/; then
+            printf "Eemoving previous backups...\n"
+            rm -r /home/$USER/dotfiles/backup/
+        else
+            mkdir /home/$USER/dotfiles/backup/
+        fi
         printf "Backing up in /dotfiles/backup/...\nMM\n"
-        mkdir /home/$USER/dotfiles/backup/
         cp -r /home/$USER/.config/hypr/ /home/$USER/dotfiles/backup/
         cp -r /home/$USER/.config/dunst/ /home/$USER/dotfiles/backup/
         cp -r /home/$USER/.config/gtk-3.0/ /home/$USER/dotfiles/backup/
