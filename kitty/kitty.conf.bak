@@ -20,6 +20,7 @@
 #: syntax>.
 
 font_size 12.0
+font_family JetBrains
 
 #: Font size (in pts).
 
@@ -2648,6 +2649,6 @@ bold_italic_font auto
 # END_KITTY_FONTS
 
 # BEGIN_KITTY_THEME
-# Base4Tone_Classic_D Dark
+# Gruvbox Material Dark Soft
 include current-theme.conf
 # END_KITTY_THEME
