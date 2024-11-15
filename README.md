@@ -39,6 +39,7 @@ It will prompt you to backup the existing configuration files in /dotfiles/backu
 ### AUR
 - oh-my-posh
 - waypaper
+- hyprpolkitagent-git
 
 ## ToDos
 - waybar configuration for desktop
