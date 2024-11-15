@@ -1,7 +1,8 @@
 # Dotfiles - With Hyprland and Waybar!
 ## DISCLAIMER
 I cannot guarantee the install script uses the best practices for package management and symbolic linking.  
-This is what works for me, use at your own risk!
+This is what works for me, use at your own risk!  
+For desktop users: right now the waybar layout is designed around laptop usage, manual configuration is required.
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/3742ef6b-cec7-430d-bc19-924fc4e8aaed)
 ![image](https://github.com/user-attachments/assets/cfe52a39-3f11-4cd2-8ed8-0cbfb0541025)
@@ -33,7 +34,11 @@ It will prompt you to backup the existing configuration files in /dotfiles/backu
 - pavucontrol
 - nautilus
 - gnome-calendar
+- ttf-hack-nerd
+- ttf-jetbrains-mono-nerd
 ### AUR
 - oh-my-posh
 - waypaper
 
+## ToDos
+- waybar configuration for desktop
