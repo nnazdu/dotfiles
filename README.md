@@ -43,3 +43,5 @@ It will prompt you to backup the existing configuration files in /dotfiles/backu
 
 ## ToDos
 - waybar configuration for desktop
+- permission configuration for scripts
+- acpi handling for laptops

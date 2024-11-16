@@ -127,6 +127,11 @@ window#waybar {
 #temperature.critical {
     color: #cc3436;
 }
+#custom-hyprsunset.activated {
+    background-color: rgba(69, 133, 136, 0.85);
+    margin: 3px 0 10px 0;
+    padding: 1px 10px 1px 8px;
+}
 /*-----Colors----*/
 /*
  *rgba(0,85,102,1),#005566 --> Indigo(dye)

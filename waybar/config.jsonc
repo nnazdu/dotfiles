@@ -1,7 +1,7 @@
 //for wiki and examples: https://github.com/Alexays/Waybar/wiki
 
 {
-    "modules-left": ["hyprland/workspaces", "tray", "idle_inhibitor", "custom/media"],
+    "modules-left": ["hyprland/workspaces", "tray", "idle_inhibitor", "custom/hyprsunset", "custom/media"],
     "modules-center": ["temperature", "cpu", "clock", "memory", "disk"],
     "modules-right": ["pulseaudio", "bluetooth", "network", "power-profiles-daemon", "battery"],
 
@@ -21,6 +21,11 @@
             "activated": " ",
             "deactivated": " "
         }
+    },
+    "custom/hyprsunset": {
+        "format": "<big> </big>",
+        "on-click": "$HOME/.config/waybar/waybar-custom/hyprsunset.sh",
+        "return-type": "json"
     },
     "custom/media": {
         "format": "{0} {1}",
