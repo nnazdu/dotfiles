@@ -10,7 +10,7 @@ package_install () {
         printf "Invoking pacman... \n\n"
         sudo pacman -S --noconfirm - < /home/$USER/dotfiles/scripts/install/stable-packages
         printf "Invoking yay... \n\n"
-        yay S --noconfirm - < /home/$USER/dotfiles/scripts/install/AUR-packages
+        yay -S --noconfirm - < /home/$USER/dotfiles/scripts/install/AUR-packages
         printf "Are you running on a laptop? y/n\n"
         read ask
         if [[ $ask =~ ^[Yy]$ ]] ; then
