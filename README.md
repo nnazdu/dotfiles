@@ -40,6 +40,7 @@ It will prompt you to backup the existing configuration files in /dotfiles/backu
 - oh-my-posh
 - waypaper
 - hyprpolkitagent-git
+- hyprsunset
 
 ## ToDos
 - waybar configuration for desktop
