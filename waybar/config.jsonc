@@ -24,8 +24,11 @@
     },
     "custom/hyprsunset": {
         "format": "<big> </big>",
-        "on-click": "$HOME/.config/waybar/waybar-custom/hyprsunset.sh",
-        "return-type": "json"
+        "interval": "once",
+        "on-click": "$HOME/.config/waybar/waybar-custom/togglenightlight.sh",
+        "return-type": "json",
+        "exec": "$HOME/.config/waybar/waybar-custom/nightlight.sh",
+        "exec-on-event": true
     },
     "custom/media": {
         "format": "{0} {1}",
