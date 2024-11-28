@@ -36,6 +36,7 @@ It will prompt you to backup the existing configuration files in /dotfiles/backu
 - gnome-calendar
 - ttf-hack-nerd
 - ttf-jetbrains-mono-nerd
+
 ### AUR
 - oh-my-posh
 - waypaper
