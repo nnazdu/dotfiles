@@ -14,3 +14,5 @@ alias c=clear
 PS1='[\u@\h \W]\$ '
 
 eval "$(oh-my-posh init bash --config '/home/nazdu/.config/ohmyposh/nazdu.omp.json')"
+[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
+alias sudo="sudo TERMINFO=\"$TERMINFO\""
