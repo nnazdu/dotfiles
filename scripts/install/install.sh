@@ -1,5 +1,5 @@
 #!/bin/bash
-declare -a configs=("hypr" "dunst" "gtk-3.0" "gtk-4.0" "kitty" "ohmyposh" "rofi" "scripts" "waybar" "wallpaper" "waypaper")
+declare -a configs=("hypr" "dunst" "gtk-3.0" "gtk-4.0" "kitty" "ohmyposh" "rofi" "scripts" "wallpaper" "waypaper" "hyprpanel")
 
 package_install () {
     printf "yay is required in order to install AUR packages\n"
