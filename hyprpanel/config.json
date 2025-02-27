@@ -582,15 +582,24 @@
     "1": {
       "left": [
         "dashboard",
+        "hyprsunset",
+        "hypridle",
         "workspaces",
         "windowtitle"
       ],
       "middle": [
-        "media"
+        "media",
+        "cputemp",
+        "clock",
+        "cpu",
+        "cava"
       ],
       "right": [
         "volume",
-        "clock",
+        "network",
+        "bluetooth",
+        "battery",
+        "systray",
         "notifications"
       ]
     },
@@ -611,6 +620,9 @@
         "notifications"
       ]
     }
+  },
+  "app.icon.mappings":{
+    "Brave Browser":"\uf269"
   },
   "theme.font.name": "JetBrainsMono Nerd Font Mono",
   "theme.font.label": "JetBrainsMono Nerd Font Mono Bold",

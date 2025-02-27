@@ -1,5 +1,22 @@
 
 //@theme "/home/nazdu/.local/share/rofi/themes/rounded-gray-dark.rasi"
 
-@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
+//@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
  
+//@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
+
+//@theme "/home/nazdu/.local/share/rofi/themes/rounded-orange-dark.rasi"
+
+//@theme "/home/nazdu/.local/share/rofi/themes/spotlight-dark.rasi"
+
+configuration {
+    display-ssh:    "";
+    display-run:    "";
+    display-drun:   ">>";
+    display-window: "";
+    display-combi:  "";
+    show-icons:     true;
+}
+
+@theme "~/.config/rofi/gruvbox-material.rasi"
+
