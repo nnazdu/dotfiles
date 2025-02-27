@@ -14,7 +14,7 @@ This repo contains a barebones installation script that installs required packag
   
 The script is located in scripts/install/install.sh  
 
-It will prompt you to backup the existing configuration files in /dotfiles/backup/ and then install required packages through yay.  
+It will prompt you to backup the existing configuration files in /dotfiles/backup/ and then install required packages through pacman and yay.  
 
 ## Packages
 ### Stable repositories
@@ -44,6 +44,8 @@ It will prompt you to backup the existing configuration files in /dotfiles/backu
 - hyprpolkitagent-git
 - hyprsunset
 - ags-hyprpanel-git
+- brave-bin
+- mullvad-vpn-bin
 
 ## ToDos
 - waybar configuration for desktop
