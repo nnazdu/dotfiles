@@ -48,5 +48,4 @@ It will prompt you to backup the existing configuration files in /dotfiles/backu
 - mullvad-vpn-bin
 
 ## ToDos
-- waybar configuration for desktop
-- permission configuration for scripts
+- update screenshots
