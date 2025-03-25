@@ -1,0 +1,13 @@
+[Unit]
+Description=DNS switcher for mullvad VPN
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=nazdu
+Group=nazdu
+ExecStart=/home/nazdu/dotfiles/scripts/mullvaddns.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
