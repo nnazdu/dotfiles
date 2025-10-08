@@ -621,8 +621,8 @@
       ]
     }
   },
-  "app.icon.mappings":{
-    "Brave Browser":"\uf269"
+  "app.icon.mappings": {
+    "Brave Browser": ""
   },
   "theme.font.name": "JetBrainsMono Nerd Font Mono",
   "theme.font.label": "JetBrainsMono Nerd Font Mono Bold",
@@ -672,5 +672,8 @@
   "bar.customModules.cpu.leftClick": "$TERMINAL -e htop",
   "theme.bar.buttons.modules.cpuTemp.background": "#282828",
   "menus.clock.weather.enabled": false,
-  "bar.volume.label": true
+  "bar.volume.label": true,
+  "bar.customModules.storage.paths": [
+    "/"
+  ]
 }
