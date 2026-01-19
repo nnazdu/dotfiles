@@ -1,0 +1,2198 @@
+[LOG] Instance Signature: 386376400119dd46a767c9f8c8791fd22c7b6e61_1765819648_1447821293
+[LOG] Runtime directory: /run/user/1000/hypr/386376400119dd46a767c9f8c8791fd22c7b6e61_1765819648_1447821293
+[LOG] Hyprland PID: 914
+[LOG] ===== SYSTEM INFO: =====
+[LOG] System name: Linux
+[LOG] Node name: nazduLaptop
+[LOG] Release: 6.17.9-arch1-1
+[LOG] Version: #1 SMP PREEMPT_DYNAMIC Mon, 24 Nov 2025 15:21:09 +0000
+
+
+[LOG] GPU information:
+06:00.0 VGA compatible controller [0300]: Advanced Micro Devices, Inc. [AMD/ATI] Barcelo [1002:15e7] (rev c4) (prog-if 00 [VGA controller])
+
+
+[LOG] os-release:
+NAME="Arch Linux"
+PRETTY_NAME="Arch Linux"
+ID=arch
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://archlinux.org/"
+DOCUMENTATION_URL="https://wiki.archlinux.org/"
+SUPPORT_URL="https://bbs.archlinux.org/"
+BUG_REPORT_URL="https://gitlab.archlinux.org/groups/archlinux/-/issues"
+PRIVACY_POLICY_URL="https://terms.archlinux.org/docs/privacy-policy/"
+LOGO=archlinux-logo
+[LOG] ========================
+
+
+
+[INFO] If you are crashing, or encounter any bugs, please consult https://wiki.hypr.land/Crashes-and-Bugs/
+
+
+[LOG] 
+Current splash: Read the wiki.
+
+
+[LOG] Old rlimit: soft -> 1024, hard -> 524288
+[LOG] New rlimit: soft -> 524288, hard -> 524288
+[LOG] Creating the EventLoopManager!
+[LOG] Creating the HookSystem!
+[LOG] Creating the KeybindManager!
+[LOG] Creating the AnimationManager!
+[LOG] Creating the DynamicPermissionManager!
+[LOG] Creating the ConfigManager!
+[LOG] Using config: /home/nazdu/.config/hypr/hyprland.conf
+[INFO] !!!!HEY YOU, YES YOU!!!!: further logs to stdout / logfile are disabled by default. BEFORE SENDING THIS LOG, ENABLE THEM. Use debug:disable_logs = false to do so: https://wiki.hypr.land/Configuring/Variables/#debug
+[LOG] ApplyConfigToKeyboard for "video-bus", hasconfig: 0
+[LOG] Not applying config to keyboard, it did not change.
+[LOG] ApplyConfigToKeyboard for "power-button", hasconfig: 0
+[LOG] Not applying config to keyboard, it did not change.
+[LOG] ApplyConfigToKeyboard for "ideapad-extra-buttons", hasconfig: 0
+[LOG] Not applying config to keyboard, it did not change.
+[LOG] ApplyConfigToKeyboard for "at-translated-set-2-keyboard", hasconfig: 0
+[LOG] Not applying config to keyboard, it did not change.
+[LOG] ApplyConfigToKeyboard for "leonardo’s-airpods-pro-(avrcp)", hasconfig: 0
+[LOG] Not applying config to keyboard, it did not change.
+[LOG] Applied config to mouse ftcs0038:00-2808:0106-mouse, sens 0.00
+[LOG] Applied config to mouse ftcs0038:00-2808:0106-touchpad, sens 0.00
+[WARN] No rule found for eDP-1, trying to use the first.
+[WARN] No rules configured. Using the default hardcoded one.
+[LOG] Applying monitor rule for eDP-1
+[LOG] Monitor eDP-1: requested preferred, using preferred mode 1920x1200@60.00Hz
+[LOG] output eDP-1 succeeded basic test on format DRM_FORMAT_XRGB8888
+[LOG] [AQ] drm: Modesetting eDP-1 with 1920x1200@60.00Hz
+[ERR] [AQ] drm: Cannot commit when a page-flip is awaiting
+[ERR] Couldn't commit output named eDP-1
+[LOG] Monitor eDP-1 data dump: res 1920x1200@60.00Hz, scale 1.50, transform 0, pos 0x0, 10b 0
+[LOG] [CXDGOutputProtocol] updating all xdg_output heads
+[WARN] FIXME: color management protocol is enabled and outputs changed, check preferred image description changes
+[LOG] [CXDGOutputProtocol] updating all xdg_output heads
+[WARN] No rule found for eDP-1, trying to use the first.
+[WARN] No rules configured. Using the default hardcoded one.
+[LOG] Searching for matching rules for code (title: hyprland.conf - dotfiles - Visual Studio Code)
+[LOG] Searching for matching rules for zen (title: Window Rules – Hyprland Wiki — Zen Browser)
+[LOG] Searching for matching rules for zen (title: Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser)
+[LOG] Searching for matching rules for kitty (title: Gemini - dotfiles)
+[LOG] [CXDGOutputProtocol] updating all xdg_output heads
+[LOG] Creating a texture for BGTex
+[LOG] [AQ] drm: Modesetting eDP-1 with 1920x1200@60.00Hz
+[LOG] arrangeMonitors: 1 to arrange
+[LOG] arrangeMonitors: eDP-1 auto [0, 0]
+[LOG] arrangeMonitors: eDP-1 xwayland [0, 0]
+[LOG] [CXDGOutputProtocol] updating all xdg_output heads
+[ERR] CConfigWatcher: got an event for wd 57 which we don't have?!
+[ERR] CConfigWatcher: got an event for wd 58 which we don't have?!
+[LOG] [CWLCompositorResource] New wl_region with id 15 at 5575a22de350
+[LOG] Hyprctl: new connection from pid 1052
+[LOG] Creating a texture for BGTex
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a2311430 requests geometry 0x0 613x352
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 48: size [Vector2D: x: 920, y: 528], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 154 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 177 stride 1024 offset 2621440
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 184: size [Vector2D: x: 1419, y: 852], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 86 stride 6144 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 88 stride 1536 offset 5505024
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a24f7a50 requests geometry 0x0 613x352
+[LOG] [CWLCompositorResource] New wl_region with id 69 at 5575a22de350
+[LOG] [CWLCompositorResource] New wl_region with id 65 at 5575a22de350
+[LOG] Hyprctl: new connection from pid 1052
+[LOG] Hyprctl: keyword windowrulev2 : float, title:^(hyprpanel-settings)$
+[LOG] Hyprctl: new connection from pid 1052
+[LOG] Hyprctl: keyword windowrulev2 : float, title:^((Save|Import) Hyprpanel.*)$
+[LOG] Creating a texture for BGTex
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 53: size [Vector2D: x: 920, y: 528], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 76 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 168 stride 1024 offset 2621440
+[LOG] Hyprctl: new connection from pid 1052
+[LOG] [AQ] [libinput] event6  - palm: keyboard timeout
+
+[LOG] Creating a texture for BGTex
+[LOG] Hyprctl: new connection from pid 1052
+[LOG] Hyprctl: keyword windowrulev2 : float, title:^(hyprpanel-settings)$
+[LOG] Hyprctl: new connection from pid 1052
+[LOG] Hyprctl: keyword windowrulev2 : float, title:^((Save|Import) Hyprpanel.*)$
+[LOG] [CWLCompositorResource] New wl_region with id 195 at 5575a139aa40
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] [CWLCompositorResource] New wl_region with id 194 at 5575a139aa40
+[LOG] [CWLCompositorResource] New wl_region with id 174 at 5575a139aa40
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 175: size [Vector2D: x: 1419, y: 854], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 79 stride 6144 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 176 stride 1536 offset 5505024
+[LOG] [CWLCompositorResource] New wl_region with id 13 at 5575a238c790
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] [CWLCompositorResource] New wl_region with id 134 at 5575a139aa40
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a247ea00 requests geometry 0x0 613x495
+[LOG] [CWLCompositorResource] New wl_region with id 193 at 5575a25b6e80
+[LOG] [CWLCompositorResource] New wl_region with id 157 at 5575a22a5d70
+[LOG] [CWLCompositorResource] New wl_region with id 208 at 5575a23333c0
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f0100 requests geometry 0x0 613x352
+[LOG] [CWLCompositorResource] New wl_region with id 210 at 5575a25704f0
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 186: size [Vector2D: x: 920, y: 528], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 130 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 152 stride 1024 offset 2621440
+[LOG] Creating a texture for BGTex
+[LOG] [CWLCompositorResource] New wl_region with id 212 at 5575a2310420
+[LOG] Creating a texture for BGTex
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 211: size [Vector2D: x: 920, y: 528], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 101 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 180 stride 1024 offset 2621440
+[LOG] Creating a texture for BGTex
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 209: size [Vector2D: x: 920, y: 743], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 79 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 163 stride 1024 offset 3145728
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 199: size [Vector2D: x: 920, y: 743], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 178 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 179 stride 1024 offset 3145728
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 192: size [Vector2D: x: 920, y: 743], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 86 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 88 stride 1024 offset 3145728
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 205: size [Vector2D: x: 920, y: 528], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 170 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 176 stride 1024 offset 2621440
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 64: size [Vector2D: x: 946, y: 569], fmt AB24, planes 3
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334806273 fd 127 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334806273 fd 155 stride 1024 offset 2621440
+[LOG] [CLinuxDMABUFParamsResource]  | plane 2: mod 144115206334806273 fd 156 stride 1024 offset 2686976
+[LOG] [CDRMSyncobjManagerResource] New linux_drm_timeline at 5575a23ded20
+[LOG] Creating a texture for BGTex
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 58: size [Vector2D: x: 946, y: 569], fmt AB24, planes 3
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334806273 fd 80 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334806273 fd 121 stride 1024 offset 2621440
+[LOG] [CLinuxDMABUFParamsResource]  | plane 2: mod 144115206334806273 fd 171 stride 1024 offset 2686976
+[LOG] [CDRMSyncobjManagerResource] New linux_drm_timeline at 5575a22a54b0
+[LOG] Creating a texture for BGTex
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 34: size [Vector2D: x: 946, y: 569], fmt AB24, planes 3
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334806273 fd 125 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334806273 fd 166 stride 1024 offset 2621440
+[LOG] [CLinuxDMABUFParamsResource]  | plane 2: mod 144115206334806273 fd 182 stride 1024 offset 2686976
+[LOG] [CDRMSyncobjManagerResource] New linux_drm_timeline at 5575a25080d0
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 65: size [Vector2D: x: 920, y: 528], fmt AB24, planes 3
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334806273 fd 79 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334806273 fd 80 stride 1024 offset 2621440
+[LOG] [CLinuxDMABUFParamsResource]  | plane 2: mod 144115206334806273 fd 101 stride 1024 offset 2686976
+[LOG] [CDRMSyncobjManagerResource] New linux_drm_timeline at 5575a25afac0
+[LOG] Creating a texture for BGTex
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 66: size [Vector2D: x: 920, y: 528], fmt AB24, planes 3
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334806273 fd 118 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334806273 fd 125 stride 1024 offset 2621440
+[LOG] [CLinuxDMABUFParamsResource]  | plane 2: mod 144115206334806273 fd 131 stride 1024 offset 2686976
+[LOG] [CDRMSyncobjManagerResource] New linux_drm_timeline at 5575a25a0360
+[LOG] Creating a texture for BGTex
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 68: size [Vector2D: x: 920, y: 528], fmt AB24, planes 3
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334806273 fd 127 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334806273 fd 128 stride 1024 offset 2621440
+[LOG] [CLinuxDMABUFParamsResource]  | plane 2: mod 144115206334806273 fd 155 stride 1024 offset 2686976
+[LOG] [CDRMSyncobjManagerResource] New linux_drm_timeline at 5575a2519820
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Creating a texture for BGTex
+[LOG] Framebuffer created, status 36053
+[LOG] Background created for monitor eDP-1
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_POINTER_MOTION_START → GESTURE_STATE_POINTER_MOTION
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_UNKNOWN → GESTURE_STATE_POINTER_MOTION
+
+[LOG] cursorImage request: shape 9 -> text
+[LOG] XCursor scanning theme Bibata-Modern-Amber
+[LOG] XCursor using theme path /usr/share/icons/Bibata-Modern-Amber/cursors
+[LOG] XCursor parsing index.theme /usr/share/icons/Bibata-Modern-Amber/index.theme
+[LOG] XCursor theme Bibata-Modern-Amber inherits "hicolor"
+[LOG] XCursor scanning theme "hicolor"
+[LOG] XCursor already has a shape default loaded, skipping
+[LOG] XCursor already has a shape context-menu loaded, skipping
+[LOG] XCursor already has a shape help loaded, skipping
+[LOG] XCursor already has a shape pointer loaded, skipping
+[LOG] XCursor already has a shape progress loaded, skipping
+[LOG] XCursor already has a shape wait loaded, skipping
+[LOG] XCursor already has a shape cell loaded, skipping
+[LOG] XCursor already has a shape crosshair loaded, skipping
+[LOG] XCursor already has a shape text loaded, skipping
+[LOG] XCursor already has a shape vertical-text loaded, skipping
+[LOG] XCursor already has a shape alias loaded, skipping
+[LOG] XCursor already has a shape copy loaded, skipping
+[LOG] XCursor already has a shape move loaded, skipping
+[LOG] XCursor already has a shape no-drop loaded, skipping
+[LOG] XCursor already has a shape not-allowed loaded, skipping
+[LOG] XCursor already has a shape grab loaded, skipping
+[LOG] XCursor already has a shape grabbing loaded, skipping
+[LOG] XCursor already has a shape e-resize loaded, skipping
+[LOG] XCursor already has a shape n-resize loaded, skipping
+[LOG] XCursor already has a shape ne-resize loaded, skipping
+[LOG] XCursor already has a shape nw-resize loaded, skipping
+[LOG] XCursor already has a shape s-resize loaded, skipping
+[LOG] XCursor already has a shape se-resize loaded, skipping
+[LOG] XCursor already has a shape sw-resize loaded, skipping
+[LOG] XCursor already has a shape w-resize loaded, skipping
+[LOG] XCursor already has a shape ew-resize loaded, skipping
+[LOG] XCursor already has a shape ns-resize loaded, skipping
+[LOG] XCursor already has a shape nesw-resize loaded, skipping
+[LOG] XCursor already has a shape nwse-resize loaded, skipping
+[LOG] XCursor already has a shape col-resize loaded, skipping
+[LOG] XCursor already has a shape row-resize loaded, skipping
+[LOG] XCursor already has a shape all-scroll loaded, skipping
+[LOG] XCursor already has a shape zoom-in loaded, skipping
+[LOG] XCursor already has a shape zoom-out loaded, skipping
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[LOG] Searching for matching rules for kitty (title: Gemini - dotfiles)
+[LOG] [CWLDataDeviceProtocol] New wayland offer 5575a21447a0 for data source 5575a25150c0
+[LOG] [CWLDataOfferResource]  | offer 5575a21447a0 supports mime application/glfw+clipboard-3076
+[LOG] [CWLDataOfferResource]  | offer 5575a21447a0 supports mime TEXT
+[LOG] [CWLDataOfferResource]  | offer 5575a21447a0 supports mime STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a21447a0 supports mime UTF8_STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a21447a0 supports mime text/plain;charset=utf-8
+[LOG] [CWLDataOfferResource]  | offer 5575a21447a0 supports mime text/plain
+[LOG] Set keyboard focus to surface 5575a25a8dc0, with [Window 5575a2599860: title: "Window Rules – Hyprland Wiki — Zen Browser"]
+[LOG] Searching for matching rules for zen (title: Window Rules – Hyprland Wiki — Zen Browser)
+[LOG] [CPrimarySelectionProtocol] New offer 5575a258e380 for data source 5575a22dd220
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a2311430 requests geometry 0x0 613x352
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 133
+[LOG] cursorImage request: shape 1 -> default
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 133
+[LOG] [CXDGToplevelResource] Toplevel 5575a258bcf0 sets parent to 5575a252d180 (was 5575a252d180)
+[LOG] [CWLCompositorResource] New wl_region with id 211 at 5575a2310870
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a247ea00 requests geometry 0x0 613x495
+[LOG] [CWLCompositorResource] New wl_region with id 212 at 5575a2414bc0
+[LOG] [CWLCompositorResource] New wl_region with id 190 at 5575a2310870
+[LOG] [CWLCompositorResource] New wl_region with id 211 at 5575a2310870
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[LOG] [CWLCompositorResource] New wl_region with id 190 at 5575a2338190
+[LOG] Searching for matching rules for zen (title: Window Rules – Hyprland Wiki — Zen Browser)
+[LOG] [CWLDataDeviceProtocol] New wayland offer 5575a2143de0 for data source 5575a25150c0
+[LOG] [CWLDataOfferResource]  | offer 5575a2143de0 supports mime application/glfw+clipboard-3076
+[LOG] [CWLDataOfferResource]  | offer 5575a2143de0 supports mime TEXT
+[LOG] [CWLDataOfferResource]  | offer 5575a2143de0 supports mime STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a2143de0 supports mime UTF8_STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a2143de0 supports mime text/plain;charset=utf-8
+[LOG] [CWLDataOfferResource]  | offer 5575a2143de0 supports mime text/plain
+[LOG] Set keyboard focus to surface 5575a2348040, with [Window 5575a260bf50: title: "Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser"]
+[LOG] Searching for matching rules for zen (title: Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser)
+[LOG] [CPrimarySelectionProtocol] New offer 5575a2348fd0 for data source 5575a22dd220
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 133
+[LOG] cursorImage request: shape 1 -> default
+[LOG] cursorImage request: shape 1 -> default
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[LOG] Searching for matching rules for zen (title: Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser)
+[LOG] [CWLDataDeviceProtocol] New wayland offer 5575a25b1680 for data source 5575a25150c0
+[LOG] [CWLDataOfferResource]  | offer 5575a25b1680 supports mime application/glfw+clipboard-3076
+[LOG] [CWLDataOfferResource]  | offer 5575a25b1680 supports mime TEXT
+[LOG] [CWLDataOfferResource]  | offer 5575a25b1680 supports mime STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a25b1680 supports mime UTF8_STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a25b1680 supports mime text/plain;charset=utf-8
+[LOG] [CWLDataOfferResource]  | offer 5575a25b1680 supports mime text/plain
+[LOG] Set keyboard focus to surface 5575a258ec40, with [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Searching for matching rules for code (title: hyprland.conf - dotfiles - Visual Studio Code)
+[LOG] [CPrimarySelectionProtocol] New offer 5575a2395f80 for data source 5575a22dd220
+[LOG] cursorImage request: shape 19 -> n-resize
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[LOG] cursorImage request: shape 1 -> default
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 133
+[LOG] cursorImage request: shape 9 -> text
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 58: size [Vector2D: x: 920, y: 528], fmt AB24, planes 3
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334806273 fd 79 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334806273 fd 127 stride 1024 offset 2621440
+[LOG] [CLinuxDMABUFParamsResource]  | plane 2: mod 144115206334806273 fd 128 stride 1024 offset 2686976
+[LOG] [CDRMSyncobjManagerResource] New linux_drm_timeline at 5575a2574600
+[LOG] [CWLCompositorResource] New wl_region with id 211 at 5575a23a6210
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 57: size [Vector2D: x: 920, y: 528], fmt AB24, planes 3
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334806273 fd 101 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334806273 fd 113 stride 1024 offset 2621440
+[LOG] [CLinuxDMABUFParamsResource]  | plane 2: mod 144115206334806273 fd 118 stride 1024 offset 2686976
+[LOG] [CDRMSyncobjManagerResource] New linux_drm_timeline at 5575a238ac00
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a247ea00 requests geometry 0x0 613x495
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f0100 requests geometry 0x0 613x352
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 34: size [Vector2D: x: 920, y: 528], fmt AB24, planes 3
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334806273 fd 80 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334806273 fd 125 stride 1024 offset 2621440
+[LOG] [CLinuxDMABUFParamsResource]  | plane 2: mod 144115206334806273 fd 157 stride 1024 offset 2686976
+[LOG] [CDRMSyncobjManagerResource] New linux_drm_timeline at 5575a24dd140
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a247ea00 requests geometry 0x0 613x495
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a247ea00 requests geometry 0x0 613x495
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a247ea00 requests geometry 0x0 613x495
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_POINTER_MOTION → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a247ea00 requests geometry 0x0 613x495
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 212: size [Vector2D: x: 920, y: 743], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 131 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 155 stride 1024 offset 3145728
+[LOG] [CWLCompositorResource] New wl_region with id 190 at 5575a2605670
+[LOG] [CWLCompositorResource] New wl_region with id 211 at 5575a2605670
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a247ea00 requests geometry 0x0 613x495
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a247ea00 requests geometry 0x0 613x495
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a247ea00 requests geometry 0x0 613x495
+[LOG] [CWLCompositorResource] New wl_region with id 190 at 5575a24154c0
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a247ea00 requests geometry 0x0 613x495
+[LOG] [CWLCompositorResource] New wl_region with id 208 at 5575a2508ed0
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a247ea00 requests geometry 0x0 613x495
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a247ea00 requests geometry 0x0 613x495
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a247ea00 requests geometry 0x0 613x495
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_RESET → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_HOLD → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_FINGER_SWITCH_TIMEOUT → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_UNKNOWN → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_POINTER_MOTION_START → GESTURE_STATE_POINTER_MOTION
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_UNKNOWN → GESTURE_STATE_POINTER_MOTION
+
+[LOG] cursorImage request: shape 1 -> default
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 133
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[LOG] Searching for matching rules for code (title: hyprland.conf - dotfiles - Visual Studio Code)
+[LOG] [CWLDataDeviceProtocol] New wayland offer 5575a2369c70 for data source 5575a25150c0
+[LOG] [CWLDataOfferResource]  | offer 5575a2369c70 supports mime application/glfw+clipboard-3076
+[LOG] [CWLDataOfferResource]  | offer 5575a2369c70 supports mime TEXT
+[LOG] [CWLDataOfferResource]  | offer 5575a2369c70 supports mime STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a2369c70 supports mime UTF8_STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a2369c70 supports mime text/plain;charset=utf-8
+[LOG] [CWLDataOfferResource]  | offer 5575a2369c70 supports mime text/plain
+[LOG] Set keyboard focus to surface 5575a2557a80, with [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Searching for matching rules for kitty (title: Gemini - dotfiles)
+[LOG] [CPrimarySelectionProtocol] New offer 5575a22cdad0 for data source 5575a22dd220
+[LOG] cursorImage request: shape 9 -> text
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a2311430 requests geometry 0x0 613x352
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_POINTER_MOTION → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_RESET → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_HOLD → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_POINTER_MOTION_START → GESTURE_STATE_POINTER_MOTION
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_UNKNOWN → GESTURE_STATE_POINTER_MOTION
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_POINTER_MOTION → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_RESET → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_HOLD → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_HOLD → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_HOLD → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_HOLD → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_HOLD → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_HOLD → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_HOLD → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] cursorImage request: surface 0
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_HOLD → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] cursorImage request: shape 9 -> text
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 133
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_HOLD → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_HOLD → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_HOLD → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_HOLD → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_HOLD → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_HOLD → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_HOLD → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_UNKNOWN → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_UNKNOWN → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_UNKNOWN → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_UNKNOWN → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_UNKNOWN → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_UNKNOWN → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_HOLD → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] cursorImage request: surface 0
+[LOG] [AQ] [libinput] event6  - palm: keyboard timeout
+
+[LOG] [AQ] [libinput] event6  - palm: touch 0 (TOUCH_BEGIN), palm detected (typing)
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - palm: touch 0 (TOUCH_BEGIN), palm detected (typing)
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - palm: keyboard timeout
+
+[LOG] CConfigManager: file /home/nazdu/.config/hypr/hyprland.conf modified, reloading
+[LOG] Using config: /home/nazdu/.config/hypr/hyprland.conf
+[LOG] ApplyConfigToKeyboard for "video-bus", hasconfig: 0
+[LOG] Attempting to create a keymap for layout it with variant  (rules: , model: , options: )
+[LOG] Updating keyboard 7f34a0003030's translation state from a provided keymap
+[LOG] xkb: LED index 0 (name Num Lock) got index 1
+[LOG] xkb: LED index 1 (name Caps Lock) got index 0
+[LOG] xkb: LED index 2 (name Scroll Lock) got index 2
+[LOG] xkb: Mod index 0 (name Shift) got index 0
+[LOG] xkb: Mod index 1 (name Lock) got index 1
+[LOG] xkb: Mod index 2 (name Control) got index 2
+[LOG] xkb: Mod index 3 (name Mod1) got index 3
+[LOG] xkb: Mod index 4 (name Mod2) got index 4
+[LOG] xkb: Mod index 5 (name Mod3) got index 5
+[LOG] xkb: Mod index 6 (name Mod4) got index 6
+[LOG] xkb: Mod index 7 (name Mod5) got index 7
+[LOG] Updating keymap fd for keyboard Video Bus
+[LOG] Updated keymap fd to 155, keymap V1 to: 168
+[LOG] Set the keyboard layout to it and variant to  for keyboard "video-bus"
+[LOG] ApplyConfigToKeyboard for "power-button", hasconfig: 0
+[LOG] Attempting to create a keymap for layout it with variant  (rules: , model: , options: )
+[LOG] Updating keyboard 7f34a0002420's translation state from a provided keymap
+[LOG] xkb: LED index 0 (name Num Lock) got index 1
+[LOG] xkb: LED index 1 (name Caps Lock) got index 0
+[LOG] xkb: LED index 2 (name Scroll Lock) got index 2
+[LOG] xkb: Mod index 0 (name Shift) got index 0
+[LOG] xkb: Mod index 1 (name Lock) got index 1
+[LOG] xkb: Mod index 2 (name Control) got index 2
+[LOG] xkb: Mod index 3 (name Mod1) got index 3
+[LOG] xkb: Mod index 4 (name Mod2) got index 4
+[LOG] xkb: Mod index 5 (name Mod3) got index 5
+[LOG] xkb: Mod index 6 (name Mod4) got index 6
+[LOG] xkb: Mod index 7 (name Mod5) got index 7
+[LOG] Updating keymap fd for keyboard Power Button
+[LOG] Updated keymap fd to 145, keymap V1 to: 165
+[LOG] Set the keyboard layout to it and variant to  for keyboard "power-button"
+[LOG] ApplyConfigToKeyboard for "ideapad-extra-buttons", hasconfig: 0
+[LOG] Attempting to create a keymap for layout it with variant  (rules: , model: , options: )
+[LOG] Updating keyboard 5575a2369f20's translation state from a provided keymap
+[LOG] xkb: LED index 0 (name Num Lock) got index 1
+[LOG] xkb: LED index 1 (name Caps Lock) got index 0
+[LOG] xkb: LED index 2 (name Scroll Lock) got index 2
+[LOG] xkb: Mod index 0 (name Shift) got index 0
+[LOG] xkb: Mod index 1 (name Lock) got index 1
+[LOG] xkb: Mod index 2 (name Control) got index 2
+[LOG] xkb: Mod index 3 (name Mod1) got index 3
+[LOG] xkb: Mod index 4 (name Mod2) got index 4
+[LOG] xkb: Mod index 5 (name Mod3) got index 5
+[LOG] xkb: Mod index 6 (name Mod4) got index 6
+[LOG] xkb: Mod index 7 (name Mod5) got index 7
+[LOG] Updating keymap fd for keyboard Ideapad extra buttons
+[LOG] Updated keymap fd to 138, keymap V1 to: 164
+[LOG] Set the keyboard layout to it and variant to  for keyboard "ideapad-extra-buttons"
+[LOG] ApplyConfigToKeyboard for "at-translated-set-2-keyboard", hasconfig: 0
+[LOG] Attempting to create a keymap for layout it with variant  (rules: , model: , options: )
+[LOG] Updating keyboard 5575a23b1590's translation state from a provided keymap
+[LOG] xkb: LED index 0 (name Num Lock) got index 1
+[LOG] xkb: LED index 1 (name Caps Lock) got index 0
+[LOG] xkb: LED index 2 (name Scroll Lock) got index 2
+[LOG] xkb: Mod index 0 (name Shift) got index 0
+[LOG] xkb: Mod index 1 (name Lock) got index 1
+[LOG] xkb: Mod index 2 (name Control) got index 2
+[LOG] xkb: Mod index 3 (name Mod1) got index 3
+[LOG] xkb: Mod index 4 (name Mod2) got index 4
+[LOG] xkb: Mod index 5 (name Mod3) got index 5
+[LOG] xkb: Mod index 6 (name Mod4) got index 6
+[LOG] xkb: Mod index 7 (name Mod5) got index 7
+[LOG] Updating keymap fd for keyboard AT Translated Set 2 keyboard
+[LOG] Updated keymap fd to 131, keymap V1 to: 163
+[LOG] Set the keyboard layout to it and variant to  for keyboard "at-translated-set-2-keyboard"
+[LOG] ApplyConfigToKeyboard for "leonardo’s-airpods-pro-(avrcp)", hasconfig: 0
+[LOG] Attempting to create a keymap for layout it with variant  (rules: , model: , options: )
+[LOG] Updating keyboard 5575a247fd00's translation state from a provided keymap
+[LOG] xkb: LED index 0 (name Num Lock) got index 1
+[LOG] xkb: LED index 1 (name Caps Lock) got index 0
+[LOG] xkb: LED index 2 (name Scroll Lock) got index 2
+[LOG] xkb: Mod index 0 (name Shift) got index 0
+[LOG] xkb: Mod index 1 (name Lock) got index 1
+[LOG] xkb: Mod index 2 (name Control) got index 2
+[LOG] xkb: Mod index 3 (name Mod1) got index 3
+[LOG] xkb: Mod index 4 (name Mod2) got index 4
+[LOG] xkb: Mod index 5 (name Mod3) got index 5
+[LOG] xkb: Mod index 6 (name Mod4) got index 6
+[LOG] xkb: Mod index 7 (name Mod5) got index 7
+[LOG] Updating keymap fd for keyboard Leonardo’s AirPods Pro (AVRCP)
+[LOG] Updated keymap fd to 186, keymap V1 to: 188
+[LOG] Set the keyboard layout to it and variant to  for keyboard "leonardo’s-airpods-pro-(avrcp)"
+[LOG] Applied config to mouse ftcs0038:00-2808:0106-mouse, sens 0.30
+[LOG] Applied config to mouse ftcs0038:00-2808:0106-touchpad, sens 0.30
+[LOG] Applying monitor rule for eDP-1
+[LOG] Monitor eDP-1: requested preferred, using preferred mode 1920x1200@60.00Hz
+[LOG] output eDP-1 succeeded basic test on format DRM_FORMAT_XRGB8888
+[LOG] [AQ] drm: Modesetting eDP-1 with 1920x1200@60.00Hz
+[ERR] [AQ] drm: Cannot commit when a page-flip is awaiting
+[ERR] Couldn't commit output named eDP-1
+[LOG] Monitor eDP-1 data dump: res 1920x1200@60.00Hz, scale 1.00, transform 0, pos 0x0, 10b 0
+[LOG] [CXDGOutputProtocol] updating all xdg_output heads
+[WARN] FIXME: color management protocol is enabled and outputs changed, check preferred image description changes
+[LOG] [CXDGOutputProtocol] updating all xdg_output heads
+[LOG] Searching for matching rules for code (title: hyprland.conf - dotfiles - Visual Studio Code)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Searching for matching rules for zen (title: Window Rules – Hyprland Wiki — Zen Browser)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a2599860: title: "Window Rules – Hyprland Wiki — Zen Browser"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a2599860: title: "Window Rules – Hyprland Wiki — Zen Browser"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a2599860: title: "Window Rules – Hyprland Wiki — Zen Browser"]
+[LOG] Searching for matching rules for zen (title: Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a260bf50: title: "Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a260bf50: title: "Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a260bf50: title: "Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser"]
+[LOG] Searching for matching rules for kitty (title: Gemini - dotfiles)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] [CXDGOutputProtocol] updating all xdg_output heads
+[LOG] [AQ] drm: Modesetting eDP-1 with 1920x1200@60.00Hz
+[LOG] Hyprctl: new connection from pid 1052
+[LOG] arrangeMonitors: 1 to arrange
+[LOG] arrangeMonitors: eDP-1 explicit [0, 0]
+[LOG] arrangeMonitors: eDP-1 xwayland [0, 0]
+[LOG] [CXDGOutputProtocol] updating all xdg_output heads
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[ERR] CConfigWatcher: got an event for wd 65 which we don't have?!
+[ERR] CConfigWatcher: got an event for wd 66 which we don't have?!
+[LOG] [CWLCompositorResource] New wl_region with id 13 at 5575a23dc850
+[LOG] [CWLCompositorResource] New wl_region with id 15 at 5575a23dc850
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a24f7a50 requests geometry 0x0 613x352
+[LOG] [CWLCompositorResource] New wl_region with id 66 at 5575a23dc850
+[LOG] [CWLCompositorResource] New wl_region with id 69 at 5575a23dc850
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a2311430 requests geometry 0x0 613x352
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a2311430 requests geometry 0x0 946x568
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 53: size [Vector2D: x: 946, y: 568], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 126 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 162 stride 1024 offset 2621440
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 207: size [Vector2D: x: 1419, y: 852], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 76 stride 6144 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 77 stride 1536 offset 5505024
+[LOG] [CWLCompositorResource] New wl_region with id 193 at 5575a234b070
+[LOG] [CWLCompositorResource] New wl_region with id 199 at 5575a234b070
+[LOG] Hyprctl: new connection from pid 1052
+[LOG] Hyprctl: keyword windowrulev2 : float, title:^(hyprpanel-settings)$
+[LOG] [AQ] [libinput] event6  - palm: keyboard timeout
+
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a24f7a50 requests geometry 0x0 946x569
+[LOG] [CWLCompositorResource] New wl_region with id 66 at 5575a25b20f0
+[LOG] [CWLCompositorResource] New wl_region with id 68 at 5575a25b20f0
+[LOG] Hyprctl: new connection from pid 1052
+[LOG] Hyprctl: keyword windowrulev2 : float, title:^((Save|Import) Hyprpanel.*)$
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 43: size [Vector2D: x: 946, y: 568], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 78 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 170 stride 1024 offset 2621440
+[LOG] [CWLCompositorResource] New wl_region with id 216 at 5575a234b070
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a247ea00 requests geometry 0x0 946x568
+[LOG] [CWLCompositorResource] New wl_region with id 217 at 5575a242a120
+[LOG] [CWLCompositorResource] New wl_region with id 218 at 5575a242a120
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f0100 requests geometry 0x0 946x569
+[LOG] [CWLCompositorResource] New wl_region with id 224 at 5575a25a22d0
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 186: size [Vector2D: x: 946, y: 569], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 127 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 156 stride 1024 offset 2621440
+[LOG] Hyprctl: new connection from pid 1052
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 194: size [Vector2D: x: 946, y: 568], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 86 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 169 stride 1024 offset 2621440
+[LOG] Hyprctl: new connection from pid 1052
+[LOG] Hyprctl: keyword windowrulev2 : float, title:^(hyprpanel-settings)$
+[LOG] Hyprctl: new connection from pid 1052
+[LOG] Hyprctl: keyword windowrulev2 : float, title:^((Save|Import) Hyprpanel.*)$
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 223: size [Vector2D: x: 946, y: 568], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 121 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 172 stride 1024 offset 2621440
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_POINTER_MOTION_START → GESTURE_STATE_POINTER_MOTION
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_HOLD → GESTURE_STATE_POINTER_MOTION
+
+[LOG] Searching for matching rules for kitty (title: Gemini - dotfiles)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] [CWLDataDeviceProtocol] New wayland offer 5575a241b7d0 for data source 5575a25150c0
+[LOG] [CWLDataOfferResource]  | offer 5575a241b7d0 supports mime application/glfw+clipboard-3076
+[LOG] [CWLDataOfferResource]  | offer 5575a241b7d0 supports mime TEXT
+[LOG] [CWLDataOfferResource]  | offer 5575a241b7d0 supports mime STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a241b7d0 supports mime UTF8_STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a241b7d0 supports mime text/plain;charset=utf-8
+[LOG] [CWLDataOfferResource]  | offer 5575a241b7d0 supports mime text/plain
+[LOG] Set keyboard focus to surface 5575a258ec40, with [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Searching for matching rules for code (title: hyprland.conf - dotfiles - Visual Studio Code)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] [CPrimarySelectionProtocol] New offer 5575a23e0ff0 for data source 5575a22dd220
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a2311430 requests geometry 0x0 946x568
+[LOG] cursorImage request: shape 1 -> default
+[LOG] cursorImage request: shape 9 -> text
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 133
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_POINTER_MOTION → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_RESET → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_BEGIN), tap state TAP_STATE_TOUCH → TAP_EVENT_TOUCH → TAP_STATE_TOUCH_2
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH_2 → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_SCROLL_START → GESTURE_STATE_SCROLL_START
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] state GESTURE_STATE_HOLD → GESTURE_STATE_SCROLL_START → GESTURE_STATE_SCROLL
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - button state: touch 1 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [2fg] event GESTURE_STATE_SCROLL → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 1 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_POINTER_MOTION_START → GESTURE_STATE_POINTER_MOTION
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_HOLD → GESTURE_STATE_POINTER_MOTION
+
+[LOG] cursorImage request: shape 1 -> default
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[LOG] Searching for matching rules for code (title: hyprland.conf - dotfiles - Visual Studio Code)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] [CWLDataDeviceProtocol] New wayland offer 5575a138b380 for data source 5575a25150c0
+[LOG] [CWLDataOfferResource]  | offer 5575a138b380 supports mime application/glfw+clipboard-3076
+[LOG] [CWLDataOfferResource]  | offer 5575a138b380 supports mime TEXT
+[LOG] [CWLDataOfferResource]  | offer 5575a138b380 supports mime STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a138b380 supports mime UTF8_STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a138b380 supports mime text/plain;charset=utf-8
+[LOG] [CWLDataOfferResource]  | offer 5575a138b380 supports mime text/plain
+[LOG] Set keyboard focus to surface 5575a2557a80, with [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Searching for matching rules for kitty (title: Gemini - dotfiles)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] [CPrimarySelectionProtocol] New offer 5575a22e1200 for data source 5575a22dd220
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a2311430 requests geometry 0x0 946x568
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_POINTER_MOTION → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_POINTER_MOTION_START → GESTURE_STATE_POINTER_MOTION
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_HOLD → GESTURE_STATE_POINTER_MOTION
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_POINTER_MOTION → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] cursorImage request: surface 0
+[LOG] [AQ] [libinput] event6  - palm: keyboard timeout
+
+[LOG] [AQ] [libinput] event6  - palm: keyboard timeout
+
+[LOG] [AQ] [libinput] event6  - palm: keyboard timeout
+
+[LOG] [AQ] [libinput] event6  - palm: keyboard timeout
+
+[LOG] Keybind triggered, calling dispatcher (64, , 113, exec)
+[LOG] Executing kitty
+[LOG] Process Created with pid 20829
+[LOG] [CWLSeatProtocol] New seat resource bound at 5575a25a8760
+[LOG] [CWLDataDeviceProtocol] New datamgr resource bound at 5575a2515080
+[LOG] [CWLDataDeviceManagerResource] New data device bound at 5575a2354230
+[LOG] [CXDGShellProtocol] New xdg_wm_base at 5575a239bd40
+[LOG] [CPrimarySelectionProtocol] New primary_seletion_manager at 5575a23de590
+[LOG] [CPrimarySelectionManager] New primary selection data device bound at 5575a2505fc0
+[LOG] [CTextInputV3] New tiv3 at 00005575a2602590
+[LOG] [CWLCompositorResource] New wl_surface with id 34 at 5575a21d50c0
+[LOG] [CWLCompositorResource] New wl_surface with id 35 at 5575a23ed740
+[LOG] [CXDGWMBase] New xdg_surface at 5575a25f5fc0
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a239bd40 gets a toplevel 5575a25570b0
+[LOG] CWLSurface 5575a13966f0 called init()
+[LOG] Window 5575a22023b0 set class to kitty
+[LOG] Searching for matching rules for kitty (title: )
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a22023b0: title: ""]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a22023b0: title: ""]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a22023b0: title: ""]
+[LOG] Window 5575a22023b0 set title to kitty
+[LOG] Searching for matching rules for kitty (title: kitty)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a22023b0: title: "kitty"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a22023b0: title: "kitty"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a22023b0: title: "kitty"]
+[LOG] [CXDGDecoration] setMode: MODE_SERVER_SIDE. Sending MODE_SERVER_SIDE as reply.
+[LOG] Searching for matching rules for kitty (title: kitty)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a22023b0: title: "kitty"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a22023b0: title: "kitty"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a22023b0: title: "kitty"]
+[LOG] Layout predicts size [Vector2D: x: 480, y: 582.5] for [Window 5575a22023b0: title: "kitty"]
+[LOG] Hyprctl: new connection from pid 1052
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f5fc0 requests geometry 0x0 480x582
+[LOG] [CSinglePixelBuffer] New single-pixel buffer with color 0x991e1c1c
+[LOG] New window contains HL_INITIAL_WORKSPACE_TOKEN: d520b702-9c5a-4ea9-88e5-b3a3a64d6bfa
+[LOG] HL_INITIAL_WORKSPACE_TOKEN d520b702-9c5a-4ea9-88e5-b3a3a64d6bfa -> 1
+[LOG] Searching for matching rules for kitty (title: kitty)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a22023b0: title: "kitty"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a22023b0: title: "kitty"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a22023b0: title: "kitty"]
+[LOG] OPENINGON: [Node 5575a25c4400: workspace: 1, pos: [0.00, 617.50], size: [960.00, 582.50], window: 5575a25768a0], Monitor: 0
+[LOG] Rule size (tiled), applying to [Window 5575a22023b0: title: "kitty"]
+[LOG] Searching for matching rules for kitty (title: Gemini - dotfiles)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] [CWLDataDeviceProtocol] New wayland offer 5575a24f53c0 for data source 5575a25150c0
+[LOG] [CWLDataOfferResource]  | offer 5575a24f53c0 supports mime application/glfw+clipboard-3076
+[LOG] [CWLDataOfferResource]  | offer 5575a24f53c0 supports mime TEXT
+[LOG] [CWLDataOfferResource]  | offer 5575a24f53c0 supports mime STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a24f53c0 supports mime UTF8_STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a24f53c0 supports mime text/plain;charset=utf-8
+[LOG] [CWLDataOfferResource]  | offer 5575a24f53c0 supports mime text/plain
+[LOG] Set keyboard focus to surface 5575a23ed740, with [Window 5575a22023b0: title: "kitty"]
+[LOG] Searching for matching rules for kitty (title: kitty)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a22023b0: title: "kitty"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a22023b0: title: "kitty"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a22023b0: title: "kitty"]
+[LOG] Map request dispatched, monitor eDP-1, window pos: [487.00000, 623.00000], window size: [468.00000, 570.00000]
+[LOG] [CPrimarySelectionProtocol] New offer 5575a25b6a40 for data source 5575a22dd220
+[LOG] Searching for matching rules for code (title: hyprland.conf - dotfiles - Visual Studio Code)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Searching for matching rules for zen (title: Window Rules – Hyprland Wiki — Zen Browser)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a2599860: title: "Window Rules – Hyprland Wiki — Zen Browser"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a2599860: title: "Window Rules – Hyprland Wiki — Zen Browser"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a2599860: title: "Window Rules – Hyprland Wiki — Zen Browser"]
+[LOG] Searching for matching rules for zen (title: Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a260bf50: title: "Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a260bf50: title: "Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a260bf50: title: "Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser"]
+[LOG] Searching for matching rules for kitty (title: Gemini - dotfiles)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Searching for matching rules for kitty (title: kitty)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a22023b0: title: "kitty"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a22023b0: title: "kitty"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a22023b0: title: "kitty"]
+[LOG] Hyprctl: new connection from pid 1052
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a2311430 requests geometry 0x0 468x568
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 48: size [Vector2D: x: 468, y: 568], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 75 stride 2048 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 173 stride 512 offset 1310720
+[LOG] Hyprctl: new connection from pid 1052
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 41: size [Vector2D: x: 468, y: 568], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 77 stride 2048 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 82 stride 512 offset 1310720
+[LOG] cursorImage request: shape 1 -> default
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 133
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f5fc0 requests geometry 0x0 480x582
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f5fc0 requests geometry 0x0 466x568
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 43: size [Vector2D: x: 466, y: 568], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 78 stride 2048 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 162 stride 512 offset 1310720
+[LOG] cursorImage request: shape 9 -> text
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[LOG] Window 5575a22023b0 set title to bash
+[LOG] Searching for matching rules for kitty (title: bash)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a22023b0: title: "bash"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a22023b0: title: "bash"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a22023b0: title: "bash"]
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 47: size [Vector2D: x: 466, y: 568], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 126 stride 2048 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 170 stride 512 offset 1310720
+[LOG] Hyprctl: new connection from pid 1052
+[LOG] Window 5575a22023b0 set title to nazdu@nazduLaptop:~
+[LOG] Searching for matching rules for kitty (title: nazdu@nazduLaptop:~)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a22023b0: title: "nazdu@nazduLaptop:~"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a22023b0: title: "nazdu@nazduLaptop:~"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a22023b0: title: "nazdu@nazduLaptop:~"]
+[LOG] Hyprctl: new connection from pid 1052
+[LOG] Window 5575a22023b0 set title to ~
+[LOG] Searching for matching rules for kitty (title: ~)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a22023b0: title: "~"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a22023b0: title: "~"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a22023b0: title: "~"]
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 49: size [Vector2D: x: 466, y: 568], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 177 stride 2048 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 178 stride 512 offset 1310720
+[LOG] Hyprctl: new connection from pid 1052
+[LOG] Keybind triggered, calling dispatcher (64, , 99, killactive)
+[WARN] [/usr/src/debug/hyprland/Hyprland-0.52.2/src/protocols/XDGShell.cpp:405] wl_surface destroyed before its xdg_surface role object
+[LOG] [Window 5575a22023b0: title: "~", class: kitty] unmapped
+[LOG] renderer: making a snapshot of 5575a22023b0
+[LOG] Framebuffer created, status 36053
+[LOG] Framebuffer created, status 36053
+[LOG] Framebuffer created, status 36053
+[LOG] Framebuffer created, status 36053
+[LOG] On closed window, new focused candidate is [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] [CWLDataDeviceProtocol] New wayland offer 5575a2345340 for data source 5575a25150c0
+[LOG] [CWLDataOfferResource]  | offer 5575a2345340 supports mime application/glfw+clipboard-3076
+[LOG] [CWLDataOfferResource]  | offer 5575a2345340 supports mime TEXT
+[LOG] [CWLDataOfferResource]  | offer 5575a2345340 supports mime STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a2345340 supports mime UTF8_STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a2345340 supports mime text/plain;charset=utf-8
+[LOG] [CWLDataOfferResource]  | offer 5575a2345340 supports mime text/plain
+[LOG] Set keyboard focus to surface 5575a2557a80, with [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Searching for matching rules for kitty (title: Gemini - dotfiles)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] [CPrimarySelectionProtocol] New offer 5575a25543c0 for data source 5575a22dd220
+[LOG] Searching for matching rules for code (title: hyprland.conf - dotfiles - Visual Studio Code)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Searching for matching rules for zen (title: Window Rules – Hyprland Wiki — Zen Browser)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a2599860: title: "Window Rules – Hyprland Wiki — Zen Browser"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a2599860: title: "Window Rules – Hyprland Wiki — Zen Browser"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a2599860: title: "Window Rules – Hyprland Wiki — Zen Browser"]
+[LOG] Searching for matching rules for zen (title: Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a260bf50: title: "Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a260bf50: title: "Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a260bf50: title: "Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser"]
+[LOG] Searching for matching rules for kitty (title: Gemini - dotfiles)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] [Window 5575a22023b0: title: "~", class: kitty] destroyed, queueing.
+[LOG] CWLSurface 5575a13966f0 called destroy()
+[ERR] onWindowRemovedTiling node null?
+[LOG] Hyprctl: new connection from pid 1052
+[LOG] cursorImage request: shape 9 -> text
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a2311430 requests geometry 0x0 946x568
+[LOG] Framebuffer created, status 36053
+[LOG] Framebuffer created, status 36053
+[LOG] Framebuffer created, status 36053
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 43: size [Vector2D: x: 946, y: 568], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 74 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 162 stride 1024 offset 2621440
+[LOG] [CLinuxDMABUFParamsResource] Creating a dmabuf, with id 53: size [Vector2D: x: 946, y: 568], fmt AR24, planes 2
+[LOG] [CLinuxDMABUFParamsResource]  | plane 0: mod 144115206334822913 fd 76 stride 4096 offset 0
+[LOG] [CLinuxDMABUFParamsResource]  | plane 1: mod 144115206334822913 fd 77 stride 1024 offset 2621440
+[LOG] Cleanup: destroyed a window
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_POINTER_MOTION_START → GESTURE_STATE_POINTER_MOTION
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_HOLD → GESTURE_STATE_POINTER_MOTION
+
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 133
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 133
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 133
+[LOG] Searching for matching rules for kitty (title: Gemini - dotfiles)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] [CWLDataDeviceProtocol] New wayland offer 5575a22d12f0 for data source 5575a25150c0
+[LOG] [CWLDataOfferResource]  | offer 5575a22d12f0 supports mime application/glfw+clipboard-3076
+[LOG] [CWLDataOfferResource]  | offer 5575a22d12f0 supports mime TEXT
+[LOG] [CWLDataOfferResource]  | offer 5575a22d12f0 supports mime STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a22d12f0 supports mime UTF8_STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a22d12f0 supports mime text/plain;charset=utf-8
+[LOG] [CWLDataOfferResource]  | offer 5575a22d12f0 supports mime text/plain
+[LOG] Set keyboard focus to surface 5575a2348040, with [Window 5575a260bf50: title: "Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser"]
+[LOG] Searching for matching rules for zen (title: Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a260bf50: title: "Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a260bf50: title: "Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a260bf50: title: "Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser"]
+[LOG] [CPrimarySelectionProtocol] New offer 5575a2142ba0 for data source 5575a22dd220
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a2311430 requests geometry 0x0 946x568
+[LOG] cursorImage request: shape 1 -> default
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[LOG] cursorImage request: shape 4 -> pointer
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f0100 requests geometry 0x0 946x569
+[LOG] cursorImage request: shape 1 -> default
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_POINTER_MOTION → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] cursorImage request: shape 4 -> pointer
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 133
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_POINTER_MOTION_START → GESTURE_STATE_POINTER_MOTION
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_UNKNOWN → GESTURE_STATE_POINTER_MOTION
+
+[LOG] cursorImage request: shape 1 -> default
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[LOG] Searching for matching rules for zen (title: Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a260bf50: title: "Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a260bf50: title: "Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a260bf50: title: "Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser"]
+[LOG] [CWLDataDeviceProtocol] New wayland offer 5575a21fad70 for data source 5575a25150c0
+[LOG] [CWLDataOfferResource]  | offer 5575a21fad70 supports mime application/glfw+clipboard-3076
+[LOG] [CWLDataOfferResource]  | offer 5575a21fad70 supports mime TEXT
+[LOG] [CWLDataOfferResource]  | offer 5575a21fad70 supports mime STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a21fad70 supports mime UTF8_STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a21fad70 supports mime text/plain;charset=utf-8
+[LOG] [CWLDataOfferResource]  | offer 5575a21fad70 supports mime text/plain
+[LOG] Set keyboard focus to surface 5575a258ec40, with [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Searching for matching rules for code (title: hyprland.conf - dotfiles - Visual Studio Code)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] [CPrimarySelectionProtocol] New offer 5575a24b3760 for data source 5575a22dd220
+[LOG] cursorImage request: shape 1 -> default
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f0100 requests geometry 0x0 946x569
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f0100 requests geometry 0x0 946x569
+[LOG] cursorImage request: shape 9 -> text
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 133
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f0100 requests geometry 0x0 946x569
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f0100 requests geometry 0x0 946x569
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_POINTER_MOTION → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f0100 requests geometry 0x0 946x569
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f0100 requests geometry 0x0 946x569
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f0100 requests geometry 0x0 946x569
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f0100 requests geometry 0x0 946x569
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f0100 requests geometry 0x0 946x569
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f0100 requests geometry 0x0 946x569
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f0100 requests geometry 0x0 946x569
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f0100 requests geometry 0x0 946x569
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f0100 requests geometry 0x0 946x569
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f0100 requests geometry 0x0 946x569
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_POINTER_MOTION_START → GESTURE_STATE_POINTER_MOTION
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_UNKNOWN → GESTURE_STATE_POINTER_MOTION
+
+[LOG] cursorImage request: shape 1 -> default
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[LOG] cursorImage request: shape 4 -> pointer
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 133
+[LOG] cursorImage request: shape 1 -> default
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_POINTER_MOTION → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_POINTER_MOTION_START → GESTURE_STATE_POINTER_MOTION
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_UNKNOWN → GESTURE_STATE_POINTER_MOTION
+
+[LOG] cursorImage request: shape 4 -> pointer
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 133
+[LOG] cursorImage request: shape 1 -> default
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[LOG] cursorImage request: shape 1 -> default
+[LOG] [CPrimarySelectionProtocol] New offer 5575a25704a0 for data source 5575a22dd220
+[LOG] cursorImage request: shape 1 -> default
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_POINTER_MOTION → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_TOUCH → TAP_EVENT_RELEASE → TAP_STATE_1FGTAP_TAPPED
+
+[LOG] [CWLCompositorResource] New wl_surface with id 48 at 5575a261a380
+[LOG] CWLSurface 5575a25eade0 called init()
+[LOG] LayerSurface 5575a245fa00 (namespace dashboardmenu layer 2) created on monitor eDP-1
+[LOG] [CLayerShellProtocol] New wlr_layer_surface 5575a245fa00
+[LOG] LayerSurface 5575a245fa00 mapped
+[LOG] [CWLDataDeviceProtocol] New wayland offer 7f347c000be0 for data source 5575a25150c0
+[LOG] [CWLDataOfferResource]  | offer 7f347c000be0 supports mime application/glfw+clipboard-3076
+[LOG] [CWLDataOfferResource]  | offer 7f347c000be0 supports mime TEXT
+[LOG] [CWLDataOfferResource]  | offer 7f347c000be0 supports mime STRING
+[LOG] [CWLDataOfferResource]  | offer 7f347c000be0 supports mime UTF8_STRING
+[LOG] [CWLDataOfferResource]  | offer 7f347c000be0 supports mime text/plain;charset=utf-8
+[LOG] [CWLDataOfferResource]  | offer 7f347c000be0 supports mime text/plain
+[LOG] Set keyboard focus to surface 5575a261a380
+[LOG] [CPrimarySelectionProtocol] New offer 5575a25e8000 for data source 5575a22dd220
+[LOG] cursorImage request: shape 1 -> default
+[LOG] cursorImage request: shape 1 -> default
+[LOG] [AQ] [libinput] event6  - tap: touch -1 (), tap state TAP_STATE_1FGTAP_TAPPED → TAP_EVENT_TIMEOUT → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_POINTER_MOTION_START → GESTURE_STATE_POINTER_MOTION
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_HOLD → GESTURE_STATE_POINTER_MOTION
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_POINTER_MOTION → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [CWLCompositorResource] New wl_surface with id 46 at 5575a23ed740
+[LOG] [CXDGWMBase] New xdg_positioner at 5575a25af170
+[LOG] [CXDGWMBase] New xdg_surface at 5575a25f5fc0
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f5fc0 gets a popup 5575a23aee40 owner 0
+[LOG] CWLSurface 5575a25b6d80 called init()
+[LOG] GetPosition with constraint [Vector2D: x: 0, y: 0] [Vector2D: x: 1920, y: 1200] and parent [Vector2D: x: 0, y: 0]
+[LOG] [CXDGPopupResource] Popup 5575a23aee40 gets unconstrained to [Vector2D: x: 306, y: 234] [Vector2D: x: 100, y: 52]
+[LOG] New popup at 5575a257a4b0
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a25f5fc0 requests geometry 0x0 100x52
+[LOG] [CWLCompositorResource] New wl_region with id 44 at 5575a25068e0
+[LOG] popup 5575a25f6870: mapped
+[LOG] [CWLCompositorResource] New wl_region with id 57 at 5575a1448080
+[LOG] [CWLCompositorResource] New wl_region with id 44 at 5575a25c5940
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_TOUCH → TAP_EVENT_RELEASE → TAP_STATE_1FGTAP_TAPPED
+
+[LOG] popup 5575a25f6870: unmapped
+[LOG] renderer: making a snapshot of 5575a25f6870
+[LOG] Framebuffer created, status 36053
+[LOG] Framebuffer created, status 36053
+[LOG] Framebuffer created, status 36053
+[LOG] Framebuffer created, status 36053
+[LOG] CWLSurface 5575a25b6d80 called destroy()
+[LOG] popup 5575a25f6870: skipping full destroy, animating
+[LOG] popup 5575a25f6870: skipping full destroy, animating
+[LOG] LayerSurface 5575a245fa00 destroyed
+[LOG] Forcing an unmap of a LS that did a straight destroy!
+[LOG] LayerSurface 5575a245fa00 unmapped
+[LOG] renderer: making a snapshot of 5575a2572a20
+[LOG] Framebuffer created, status 36053
+[LOG] Searching for matching rules for code (title: hyprland.conf - dotfiles - Visual Studio Code)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] [CWLDataDeviceProtocol] New wayland offer 5575a22a00b0 for data source 5575a25150c0
+[LOG] [CWLDataOfferResource]  | offer 5575a22a00b0 supports mime application/glfw+clipboard-3076
+[LOG] [CWLDataOfferResource]  | offer 5575a22a00b0 supports mime TEXT
+[LOG] [CWLDataOfferResource]  | offer 5575a22a00b0 supports mime STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a22a00b0 supports mime UTF8_STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a22a00b0 supports mime text/plain;charset=utf-8
+[LOG] [CWLDataOfferResource]  | offer 5575a22a00b0 supports mime text/plain
+[LOG] Set keyboard focus to surface 5575a258ec40, with [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Searching for matching rules for code (title: hyprland.conf - dotfiles - Visual Studio Code)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] [CPrimarySelectionProtocol] New offer 5575a2464720 for data source 5575a22dd220
+[LOG] CWLSurface 5575a25eade0 called destroy()
+[LOG] [CWLCompositorResource] New wl_surface with id 54 at 5575a21fa740
+[LOG] CWLSurface 5575a25b6d80 called init()
+[LOG] LayerSurface 5575a245fa00 (namespace verification layer 2) created on monitor eDP-1
+[LOG] [CLayerShellProtocol] New wlr_layer_surface 5575a245fa00
+[LOG] Framebuffer created, status 36053
+[LOG] Framebuffer created, status 36053
+[LOG] Framebuffer created, status 36053
+[LOG] cursorImage request: shape 1 -> default
+[LOG] cursorImage request: shape 4 -> pointer
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 133
+[LOG] cursorImage request: shape 1 -> default
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 140
+[LOG] LayerSurface 5575a245fa00 mapped
+[LOG] [CWLDataDeviceProtocol] New wayland offer 5575a23e5a70 for data source 5575a25150c0
+[LOG] [CWLDataOfferResource]  | offer 5575a23e5a70 supports mime application/glfw+clipboard-3076
+[LOG] [CWLDataOfferResource]  | offer 5575a23e5a70 supports mime TEXT
+[LOG] [CWLDataOfferResource]  | offer 5575a23e5a70 supports mime STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a23e5a70 supports mime UTF8_STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a23e5a70 supports mime text/plain;charset=utf-8
+[LOG] [CWLDataOfferResource]  | offer 5575a23e5a70 supports mime text/plain
+[LOG] Set keyboard focus to surface 5575a21fa740
+[LOG] [CPrimarySelectionProtocol] New offer 5575a2315c40 for data source 5575a22dd220
+[LOG] cursorImage request: shape 1 -> default
+[LOG] [AQ] [libinput] event6  - tap: touch -1 (), tap state TAP_STATE_1FGTAP_TAPPED → TAP_EVENT_TIMEOUT → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_POINTER_MOTION_START → GESTURE_STATE_POINTER_MOTION
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_HOLD → GESTURE_STATE_POINTER_MOTION
+
+[LOG] Cleanup: destroyed a layersurface
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_POINTER_MOTION → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_HOLD_TIMEOUT → GESTURE_STATE_HOLD
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_UPDATE), tap state TAP_STATE_TOUCH → TAP_EVENT_MOTION → TAP_STATE_DEAD
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_CANCEL → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_HOLD → GESTURE_EVENT_POINTER_MOTION_START → GESTURE_STATE_POINTER_MOTION
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_HOLD → GESTURE_STATE_POINTER_MOTION
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_POINTER_MOTION → GESTURE_EVENT_END → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_DEAD → TAP_EVENT_RELEASE → TAP_STATE_IDLE
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_NONE    event BUTTON_EVENT_IN_AREA     to BUTTON_STATE_AREA   
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_BEGIN), tap state TAP_STATE_IDLE → TAP_EVENT_TOUCH → TAP_STATE_TOUCH
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_NONE → GESTURE_EVENT_FINGER_DETECTED → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] state GESTURE_STATE_NONE → GESTURE_STATE_UNKNOWN
+
+[LOG] [AQ] [libinput] event6  - button state: touch 0 from BUTTON_STATE_AREA    event BUTTON_EVENT_UP          to BUTTON_STATE_NONE   
+
+[LOG] [AQ] [libinput] event6  - gesture: [1fg] event GESTURE_STATE_UNKNOWN → GESTURE_EVENT_RESET → GESTURE_STATE_NONE
+
+[LOG] [AQ] [libinput] event6  - tap: touch 0 (TOUCH_END), tap state TAP_STATE_TOUCH → TAP_EVENT_RELEASE → TAP_STATE_1FGTAP_TAPPED
+
+[LOG] [AQ] [libinput] event6  - tap: touch -1 (), tap state TAP_STATE_1FGTAP_TAPPED → TAP_EVENT_TIMEOUT → TAP_STATE_IDLE
+
+[LOG] LayerSurface 5575a245fa00 destroyed
+[LOG] Forcing an unmap of a LS that did a straight destroy!
+[LOG] LayerSurface 5575a245fa00 unmapped
+[LOG] renderer: making a snapshot of 5575a23aee40
+[LOG] Framebuffer created, status 36053
+[LOG] Framebuffer created, status 36053
+[LOG] Framebuffer created, status 36053
+[LOG] Framebuffer created, status 36053
+[LOG] Searching for matching rules for code (title: hyprland.conf - dotfiles - Visual Studio Code)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] [CWLDataDeviceProtocol] New wayland offer 5575a21cd0b0 for data source 5575a25150c0
+[LOG] [CWLDataOfferResource]  | offer 5575a21cd0b0 supports mime application/glfw+clipboard-3076
+[LOG] [CWLDataOfferResource]  | offer 5575a21cd0b0 supports mime TEXT
+[LOG] [CWLDataOfferResource]  | offer 5575a21cd0b0 supports mime STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a21cd0b0 supports mime UTF8_STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a21cd0b0 supports mime text/plain;charset=utf-8
+[LOG] [CWLDataOfferResource]  | offer 5575a21cd0b0 supports mime text/plain
+[LOG] Set keyboard focus to surface 5575a258ec40, with [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Searching for matching rules for code (title: hyprland.conf - dotfiles - Visual Studio Code)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Searching for matching rules for code (title: hyprland.conf - dotfiles - Visual Studio Code)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a25acfb0: title: "hyprland.conf - dotfiles - Visual Studio Code"]
+[LOG] [CWLDataDeviceProtocol] New wayland offer 5575a138b380 for data source 5575a25150c0
+[LOG] [CWLDataOfferResource]  | offer 5575a138b380 supports mime application/glfw+clipboard-3076
+[LOG] [CWLDataOfferResource]  | offer 5575a138b380 supports mime TEXT
+[LOG] [CWLDataOfferResource]  | offer 5575a138b380 supports mime STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a138b380 supports mime UTF8_STRING
+[LOG] [CWLDataOfferResource]  | offer 5575a138b380 supports mime text/plain;charset=utf-8
+[LOG] [CWLDataOfferResource]  | offer 5575a138b380 supports mime text/plain
+[LOG] Set keyboard focus to surface 5575a2557a80, with [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Searching for matching rules for kitty (title: Gemini - dotfiles)
+[LOG] Window rule size 1000 800 -> size 1000 800, floating:1* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Window rule center -> center, floating:1* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] Window rule suppressevent maximize -> suppressevent maximize, class:.* matched [Window 5575a25768a0: title: "Gemini - dotfiles"]
+[LOG] [CPrimarySelectionProtocol] New offer 5575a240c9a0 for data source 5575a22dd220
+[LOG] CWLSurface 5575a25b6d80 called destroy()
+[LOG] cursorImage request: shape 9 -> text
+[LOG] [AQ] drm: Cursor buffer imported into KMS with id 133
+[LOG] [CXDGSurfaceResource] xdg_surface 5575a2311430 requests geometry 0x0 946x568
+[LOG] Hyprctl: new connection from pid 20927
+[LOG] Hyprland is stopping!
+[LOG] Hyprctl: dispatcher exit : 
+[LOG] Kicked off the event loop! :(
