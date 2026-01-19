@@ -35,6 +35,8 @@ It will prompt you to backup the existing configuration files in /dotfiles/backu
 - nautilus
 - gnome-calendar
 - hypridle
+
+#### Laptop specific
 - power-profiles-daemon
 - brightnessctl
 
